@@ -1,6 +1,6 @@
 # jake-mocha
 
-Utilities for defining mocha tasks in your Jakefiles.
+A utility for defining mocha tasks in your Jakefiles.
 
 ## Usage
 
