@@ -1,0 +1,7 @@
+# Project-specific ignore rules applicable to all users
+
+#
+# Files related to development and testing
+#
+Jakefile.js
+test
