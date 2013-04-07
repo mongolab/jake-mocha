@@ -5,3 +5,26 @@
 #
 Jakefile.js
 test
+
+########################################################################################################################
+#
+# TEMPORARY
+#
+# Below this line are rules that belong in the user's ignore file (usually ~/.npmignore), however there's a known bug
+# preventing it from being honored so they are included here. https://github.com/isaacs/npm/issues/2634
+#
+
+#
+# IntelliJ
+#
+.idea
+*.iml
+*.ipr
+*.iws
+
+#
+# emacs
+#
+*~
+.#*
+*#
