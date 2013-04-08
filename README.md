@@ -6,7 +6,7 @@ A utility for defining Mocha tasks in your Jakefiles.
 
 ``` javascript
 var mocha = require('jake-mocha');
-mocha.loadTask(
+mocha.defineTask(
         {
             name: 'mocha',
             files: 'test/**/*.mocha.js',

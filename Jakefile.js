@@ -1,6 +1,6 @@
 var mocha = require('./lib/jake-mocha');
 
-mocha.loadTask(
+mocha.defineTask(
         {
             name: 'mocha',
             files: 'test/**/*.mocha.js',
