@@ -9,9 +9,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/objectlabs/jake-mocha.git"
+        "url": "https://github.com/mongolab/jake-mocha.git"
     },
-    "homepage": "https://github.com/objectlabs/jake-mocha",
+    "homepage": "https://github.com/mongolab/jake-mocha",
     "license": "MIT",
     "main": "lib/jake-mocha",
     "dependencies": {
