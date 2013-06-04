@@ -1,8 +1,8 @@
 {
     "name": "jake-mocha",
     "version": "0.9.0",
-    "description": "A utility for defining Mocha tasks in your Jakefiles.",
-    "keywords": ["jake", "mocha"],
+    "description": "A utility for defining Mocha tasks in your Jakefiles. Supports Unix-like glob patterns",
+    "keywords": ["jake", "mocha", "task", "glob", "pattern"],
     "author": "MongoLab <support@mongolab.com>",
     "contributors": [
         "Jared D. Cottrell <jared@mongolab.com>"
