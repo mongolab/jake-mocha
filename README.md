@@ -7,15 +7,16 @@ patterns.
 ## Usage
 
 ``` javascript
-var mocha = require('jake-mocha');
+var mocha = require('./lib/jake-mocha');
 mocha.defineTask(
-        {
-            name: 'mocha',
-            files: 'test/**/*.mocha.js',
-            mochaOptions: {
-                ui: 'bdd',
-                reporter: 'spec'
-            }
-        }
+    {
+      name: 'mocha',
+      files: 'test/**/*.mocha.js',
+      mochaOptions: {
+        ui: 'bdd',
+        reporter: 'spec'
+      }
+    }
 );
+task('default', ['mocha']);
 ```
